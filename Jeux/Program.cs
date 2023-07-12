@@ -23,3 +23,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+ExempleContext ctx = new ExempleContext();
